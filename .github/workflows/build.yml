@@ -6,9 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -21,7 +18,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PUBLIC_URL: "amstrad-cpc-sprite-creator"
+  PUBLIC_URL: "/amstrad-cpc-sprite-creator"
 
 jobs:
   build-and-deploy:
