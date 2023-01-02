@@ -1,0 +1,37 @@
+.Canvas {
+    max-width: 95vw;
+    max-height: 95vw;
+    height: 350px;
+    width: 350px;
+}
+
+.grid {
+    display: grid;
+    height: 350px;
+    width: 350px;
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-8 {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.grid-16 {
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.row {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.row:hover {
+    background-color: #999999;
+    opacity: 0.5;
+}

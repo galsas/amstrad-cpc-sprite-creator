@@ -1,0 +1,32 @@
+.Output {
+    background-color: #282c34;
+    border-radius: 0.2rem;
+    color: antiquewhite;
+    height: 350px;
+    width: 350px;
+    max-width: 95vw;
+    max-height: 95vw;
+    overflow: hidden;
+}
+
+.Output .output-sprite {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    height: inherit;
+    overflow-y: auto;
+}
+
+.Output h4 {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.Output .output-sprite span {
+    padding: 0.2rem;
+}
+
+.Output .output-sprite p {
+    margin-block: 0.5rem;
+    margin-inline: 0.5rem;
+}
+
