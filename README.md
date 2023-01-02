@@ -4,6 +4,9 @@ Utility to create sprites for Amstrad CPC, it allows to paint the pixels visuall
 
 NOTE: Work in progress! (Currently it only supports video mode 1).
 
+Uploaded in Github pages:
+[https://galsas.github.io/amstrad-cpc-sprite-creator/](https://galsas.github.io/amstrad-cpc-sprite-creator/)
+
 ## Available Scripts
 
 In the project directory, you can run:
