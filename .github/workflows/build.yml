@@ -20,6 +20,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  PUBLIC_URL: "amstrad-cpc-sprite-creator"
+
 jobs:
   build-and-deploy:
     environment:
