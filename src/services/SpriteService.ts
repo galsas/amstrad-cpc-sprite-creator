@@ -38,10 +38,10 @@ export default class SpriteService {
             const pixel3_l = (pixel3 & 0x1) << 1;
             const pixel4_l = (pixel4 & 0x1);
 
-            const heightNibbleWithLowMask = pixel1_h | pixel2_h | pixel3_h | pixel4_h;
+            const highNibbleWithLowMask = pixel1_h | pixel2_h | pixel3_h | pixel4_h;
             const lowNibble = pixel1_l | pixel2_l | pixel3_l | pixel4_l;
 
-            hexSprite.push(heightNibbleWithLowMask | lowNibble);
+            hexSprite.push(highNibbleWithLowMask | lowNibble);
         }
 
         return hexSprite;

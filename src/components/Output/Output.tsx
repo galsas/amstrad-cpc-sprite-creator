@@ -7,6 +7,10 @@ interface OutputProps {
     dimension: number;
 }
 
+/**
+ * TODO: Add a copy to clipboard button
+ * TODO: Add output format selection support
+ */
 class Output extends React.Component<OutputProps> {
 
     toHexStr(val: number) {
