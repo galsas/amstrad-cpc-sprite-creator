@@ -22,7 +22,6 @@ header {
     justify-content: center;
     grid-gap: 1rem;
     column-gap: 2rem;
-    font-size: 3vmin;
 }
 
 @media (max-width: 765px) {
@@ -51,10 +50,12 @@ header {
 }
 
 .canvas-grid {
+    width: fit-content;
     grid-area: canvas;
 }
 
 .output {
+    width: fit-content;
     grid-area: output;
 }
 

@@ -1,14 +1,14 @@
-.Canvas {
-    max-width: 95vw;
-    max-height: 95vw;
-    height: 350px;
-    width: 350px;
-}
-
 .grid {
     display: grid;
     height: 350px;
     width: 350px;
+}
+
+@media (max-width: 365px) {
+    .grid {
+        height: 90vmin;
+        width: 90vmin;
+    }
 }
 
 .grid-4 {

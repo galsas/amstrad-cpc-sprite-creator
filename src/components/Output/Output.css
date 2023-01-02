@@ -4,21 +4,28 @@
     color: antiquewhite;
     height: 350px;
     width: 350px;
-    max-width: 95vw;
-    max-height: 95vw;
     overflow: hidden;
 }
 
+@media (max-width: 365px) {
+    .Output {
+        height: 90vmin;
+        width: 90vmin;
+    }
+}
+
+
 .Output .output-sprite {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    height: inherit;
+    font-size: 1.3rem;
+    height: calc(100% - 3rem);
     overflow-y: auto;
 }
 
 .Output h4 {
+    height: 3rem;
+    font-size: 1.5rem;
     margin: 0;
-    padding-top: 0.5rem;
+    line-height: 3rem;
 }
 
 .Output .output-sprite span {

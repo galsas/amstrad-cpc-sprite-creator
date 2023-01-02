@@ -105,7 +105,9 @@ class App extends React.Component<AppProps, AppState> {
                 </div>
 
                 <footer>
-                    Enjoy!
+                    <a href="https://github.com/galsas/amstrad-cpc-sprite-creator">
+                        View on GitHub
+                    </a>
                 </footer>
             </div>
         );
