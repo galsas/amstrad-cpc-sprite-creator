@@ -2,6 +2,7 @@
     display: grid;
     height: 350px;
     width: 350px;
+    user-select: none;
 }
 
 @media (max-width: 365px) {

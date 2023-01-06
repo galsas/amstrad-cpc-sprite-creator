@@ -22,8 +22,8 @@ class App extends React.Component<AppProps, AppState> {
     colors: any = {
         1: [
             '#000080',
-            '#FFFF00',
             '#00FFFF',
+            '#FFFF00',
             '#FF0000',
         ]
     };

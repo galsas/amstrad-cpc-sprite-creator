@@ -1,8 +1,8 @@
 
 const COLORS_MODE_1: any = {
     '#000080': 0x0,
-    '#FFFF00': 0x1,
-    '#00FFFF': 0x2,
+    '#00FFFF': 0x1,
+    '#FFFF00': 0x2,
     '#FF0000': 0x3
 }
 
